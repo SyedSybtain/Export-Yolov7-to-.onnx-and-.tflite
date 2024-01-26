@@ -24,6 +24,7 @@ python export.py --weights yolov7-tiny.pt --grid --end2end --simplify --topk-all
 
 ## Convert onxx model to tensorflow
 mkdir tfmodel
+
 onnx-tf convert -i yolov7.onnx -o tfmodel/
 
 ## Convert model from Tensorflow to Tensorflow Lite
