@@ -15,7 +15,8 @@ https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
 
 ## Install other dependencies
 
-pip install onnx onnxruntime onnxsim onnx-tf
+pip install onnx onnxruntime onnxsim onnx-tf 
+
 pip install tensorflow tensorflow_probability
 
 ## PyTorch model to ONXX
