@@ -5,7 +5,7 @@
 Download Yolov7 Official Repository
 https://github.com/WongKinYiu/yolov7.git
 
-Navigate to Yolov7 Repository
+Navigate to Yolov7 main folder
 
 Install all the requirements from requirements.txt.
 pip install -r requirements.txt
@@ -30,3 +30,7 @@ onnx-tf convert -i yolov7.onnx -o tfmodel/
 Run the tf_model_to_tf_lite.py Script
 
 ### The output of the script should be Tensorflow Lite model named tfmodel/yolov7_model.tflite
+
+# Run the inference on tflite
+Run the tflite_main.py
+
