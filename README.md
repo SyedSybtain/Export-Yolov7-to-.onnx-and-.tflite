@@ -1,4 +1,4 @@
-# Yolov7-Converted-model-weights-.onnx-and-.tflite
+# Export Yolov7-weights to .onnx .tflite
 
 ## How to Convert yolov7 tiny to .onnx to .tflite
 
@@ -26,10 +26,14 @@ mkdir tfmodel
 onnx-tf convert -i yolov7.onnx -o tfmodel/
 
 ## Convert model from Tensorflow to Tensorflow Lite
+### Download the file tflite from link below
+https://github.com/SyedSybtain/Yolov7-Tiny-.onnx-and-.tflite/blob/main/tf_model_to_tf_lite.py
 
 Run the tf_model_to_tf_lite.py Script
 
 ### The output of the script should be Tensorflow Lite model named tfmodel/yolov7_model.tflite
+
+Go to the tfmodel directory in Yolov7 main folder to see the .tflite model
 
 # Run the inference on tflite
 Run the tflite_main.py
