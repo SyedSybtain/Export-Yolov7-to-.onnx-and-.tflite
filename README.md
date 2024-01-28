@@ -42,3 +42,6 @@ Go to the tfmodel directory in Yolov7 main folder to see the .tflite model
 # Run the inference on tflite
 Run the tflite_main.py
 
+# Reference
+https://igor.technology/export-yolo-v7-to-tensorflow-lite/
+
